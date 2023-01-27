@@ -1,8 +1,8 @@
 ('use strict');
 const WebSocketServer = require('ws').WebSocketServer;
-const wss = new WebSocketServer({ port: 3000 });
+const wss = new WebSocketServer({ port: 5000 });
 
-console.log('The server is running: 3000');
+console.log('The server is running: 5000');
 let buffer = '';
 wss.on('connection', (ws) => {
 	console.log(`Connected`);
